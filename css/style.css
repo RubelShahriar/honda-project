@@ -8,3 +8,9 @@ a{
 #happy-clients .clients{
     box-shadow: 1px 1px 10px red;
 }
+#motorcycle-buy .motorcycle{
+    background: #f8f8f8;
+}
+#motorcycle-buy .info{
+    background: #f8f8f8;
+}
