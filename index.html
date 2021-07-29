@@ -13,25 +13,25 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-success active" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-success" href="#">Shop</a>
+                <a class="nav-link text-light" href="#">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-success" href="#">News</a>
+                <a class="nav-link text-light" href="#">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-success" href="#">Contact</a>
+                <a class="nav-link text-light" href="#">Contact</a>
               </li>
               <li class="nav-item">
                 <button class="btn btn-danger ms-5 text-light" type="submit">Login</button>
@@ -40,19 +40,41 @@
         </div>
       </nav>
 
-      <section id="honda-cbr" class="bg-warning">
+      <section id="honda-cbr" class="mb-5 pt-5 pb-5 mb-sm-4">
           <div class="container">
               <div class="row">
-                  <div class="col-lg-6 d-flex align-items-center">
+                  <div class="col-lg-6 d-flex align-items-center ">
                       <div class="text">
-                        <h5>Computer-controlled digital transistorized with electronic advance</h5>
-                        <h1>Honda CBR 300R</h1>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn btn-danger text-light" type="submit">Purchase</button>
+                        <h5 class="text-light">Computer-controlled digital transistorized with electronic advance</h5>
+                        <h1 class="text-light fw-bold mt-3 mb-4">Honda CBR 300R</h1>
+                        <p class="text-light mb-3">The updated model comes with a much more aggressive bodywork similar to the Honda CBR250RR. It also gets a more premium Showa SFF-BP inverted front fork and a rear monoshock. Interestingly, apart from providing a more sophisticated damping, the front fork isn’t</p>
+                        <!-- Button trigger modal -->
+ <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Purchase
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            It's a trending motoebike from Indoneshia. If you wanna buy a motorbike it's a good value for you. You are invited to purchase this bike.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
                       </div>
                   </div>
-                  <div class="col-lg-6">
-                      <img src="images/header-bike.png" alt="header-bike">
+                  <div class="col-lg-6 mt-3">
+                      <img src="images/header-bike.png" class="w-100" alt="header-bike">
                   </div>
               </div>
           </div>
@@ -61,65 +83,71 @@
 
     <main>
         <!-- featured bike part start -->
-        <section id="featured-bike">
+        <section id="featured-bike" class="mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                             <h1 class="text-center">Featured Bike 2021</h1>
-                            <h5 class="text-center">Best bike collection</h5>
+                            <h5 class="text-center text-danger">Best bike collection</h5>
                     </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-3">
                         <img src="images/feature-bike.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-3">
                         <img src="images/feature-bike.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-3">
                         <img src="images/feature-bike.jpg" class="img-fluid"alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="latest-news">
+        <section id="latest-news" class="mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="text-center"> Latest News</h1>
+                        <h1 class="text-center mt-5 mb-4"> Latest News</h1>
                     </div>
                 </div>
                 <div class="text">
-                <div class="row gx-5">
-                    <div class="col-lg-4  shadow-lg rounded">
-                        <div class="image">
-                            <img src="images/bike-3.png" class="w-100" alt="bike-3">
-                        </div>
-                        <div class="text">
-                            <h2>Ducati XDIAVEL S-73</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                            <button class="btn btn-danger mt-2 text-light" type="submit">Read More</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 bg-warning shadow-lg rounded">
-                        <div class="image">
-                            <img src="images/bike-3.png" class="w-100" alt="bike-3">
-                        </div>
-                        <div class="text">
-                            <h2>Ducati XDIAVEL S-73</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                            <button class="btn btn-danger mt-2 text-light" type="submit">Read More</button>
+                <div class="row">
+                    <div class="col-lg-4 rounded my-3">
+                        <div class="shadow p-3">
+                            <div class="image">
+                                <img src="images/bike-3.png" class="w-100" alt="bike-3">
+                            </div>
+                            <div class="text">
+                                <h2 class="mt-4">Ducati XDIAVEL S-73</h2>
+                                <p>The updated model comes with a much more aggressive bodywork similar to the Honda CBR250RR. It also gets a more premium Showa SFF-BP inverted front fork and a rear monoshock.</p>
+                                <button class="btn btn-danger mt-2 text-light" type="submit">Read More</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4  shadow-lg rounded">
-                        <div class="image">
-                            <img src="images/bike-3.png" class="w-100" alt="bike-3">
+                    <div class="col-lg-4 rounded my-3">
+                        <div class="shadow p-3">
+                            <div class="image">
+                                <img src="images/bike-3.png" class="w-100" alt="bike-3">
+                            </div>
+                            <div class="text">
+                                <h2 class="mt-4">Ducati XDIAVEL S-73</h2>
+                                <p>There’s no denying the Norton V4, ‘launched’ 2017, is surrounded by more than its fair share of controversy but the news this week that new owners TVS are looking for production staff.</p>
+                                <button class="btn border-danger mt-2" type="submit">Read More</button>
+                            </div>
                         </div>
-                        <div class="text">
-                            <h2>Ducati XDIAVEL S-73</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                            <button class="btn btn-danger mt-2 text-light" type="submit">Read More</button>
+                    </div>
+                    <div class="col-lg-4 rounded my-3">
+                        <div class="shadow p-3">
+                            <div class="image">
+                                <img src="images/bike-3.png" class="w-100" alt="bike-3">
+                            </div>
+                            <div class="text">
+                                <h2 class="mt-4">Ducati XDIAVEL S-73</h2>
+                                <p>A bike that just goes to show what a difference a few years make. The ‘old’ S1000RR was already a monster performer, famed for its 199bhp and placed 10th on our old ‘fastest’ list, yet feature here.</p>
+                                <button class="btn border-danger mt-2" type="submit">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,15 +155,16 @@
             </div>
         </section>
 
-        <section id="happy-clients">
+        <section id="happy-clients" class="mt-5 mb-5">
             <div class="container">
+                <h1 class="pt-5 text-center mb-5">Happy <span class="text-warning">Clients says</span></h1>
                 <div class="row">
-                    <div class="col-lg-4 text-center client">
+                    <div class="col-lg-4 text-center client my-2">
                         <div class="clients p-3 border border-1">
                             <div class="image">
-                                <img src="images/user-2.png" class="w-50" alt="">
+                                <img src="images/user-2.png" class="w-50 mb-4" alt="">
                             </div>
-                            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <p> i rachsed  components and accessories! Free shipping on qualifying orders.components and accessories!</p>
                             <div class="icon text-warning">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -143,16 +172,16 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p class="text-primary">Regina Miles</p>
+                            <p class="text-primary pt-3">Regina Miles</p>
                             <p>Banker</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-center client">
+                    <div class="col-lg-4 text-center client my-2">
                         <div class="clients p-3 border border-1">
                             <div class="image">
-                                <img src="images/user-2.png" class="w-50" alt="">
+                                <img src="images/user-2.png" class="w-50 mb-4" alt="">
                             </div>
-                            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <p> components and accessories!  components and accessories! Free shipping on qualifying orders.</p>
                             <div class="icon text-warning">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -160,16 +189,17 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p class="text-primary">Regina Miles</p>
+                            <p class="text-primary pt-3">Regina Miles</p>
                             <p>Banker</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-center client">
+                    <div class="col-lg-4 text-center client my-2">
                         <div class="clients p-3 border border-1">
                             <div class="image">
-                                <img src="images/user-2.png" class="w-50" alt="">
+                                <img src="images/user-2.png" class="w-50 mb-4" alt="">
                             </div>
-                            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <p> components and accessories! Free shipping on qualifying orders.“No matter always make you feel better”
+                            </p>
                             <div class="icon text-warning">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -177,7 +207,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="far fa-star"></i>
                             </div>
-                            <p class="text-primary">Regina Miles</p>
+                            <p class="text-primary pt-3">Regina Miles</p>
                             <p>Banker</p>
                         </div>
                     </div>
@@ -185,14 +215,14 @@
             </div>
         </section>
 
-        <section id="faq-part">
+        <section id="faq-part" class="mt-5 mb-5">
             <div class="container">
-                <h1 class="text-center">Frequently Asked Questions</h1>
+                <h1 class="text-center pt-5 mb-5">Frequently Asked <span class="text-warning">Questions</span></h1>
                 <div class="row">
-                    <div class="col-lg-4 d-flex align-items-center">
+                    <div class="col-lg-5 d-flex align-items-center">
                         <img src="images/faq.png" class="w-100" alt="">
                     </div>
-                    <div class="col-lg-6 offset-lg-2">
+                    <div class="col-lg-6 offset-lg-1 my-3">
                         <div class="text">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
@@ -202,8 +232,7 @@
                                   </h2>
                                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.                                     </div>
-                                  </div>
+                                        Road cycling can be a confusing sport for beginners. Between the intricacies of equipment, clothing, and language, there is a lot to learn (and buy) before you might finally feel like you fit in. Unless you have a more experienced friend, But road cycling doesn't need to be that complicated, costly, or cliquey, and we want to make it easier for you to feel like one of the (chain) gang.   it can be hard to find someone trustworthy to answer your questions without making you feel naive. </div>
                                 </div>
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="headingTwo">
@@ -212,8 +241,7 @@
                                   </h2>
                                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
+                                        But road cycling doesn't need to be that complicated, costly, or cliquey, and we want to make it easier for you to feel like one of the (chain) gang. Below, we answer 10 common beginner questions to help you get out there and enjoy the ride.Road bikes generally have a tighter range of gears, curved and narrow handlebars, rigid frames and forks, and narrow tires. Each one is designed to do a specific job, but they can each vary in features. </div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
@@ -223,8 +251,7 @@
                                   </h2>
                                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
+                                        In essence, the differences are simple: Mountain bikes are designed to be ridden more slowly, on more varied terrain, and with more emphasis on control over speed. Road bikes are ridden on smoother and less varied terrain and tend to prioritize speed over control. In practice, this means mountain bikes generally have larger tires, suspension, a wider range of gears with a lower top gear (since you don’t tend to go as fast on dirt), flat and wide handlebars, and geometry that puts the rider in a more upright position. </div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
@@ -234,8 +261,7 @@
                                   </h2>
                                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
+                                        Comfortably! Don’t let anyone tell you that cycling should be uncomfortable. Sure, your legs and lungs might hurt, but your back and butt should not. A great starting point is to set the saddle height so your knee is straight and locked when you have the heel of your foot on the pedal. That way, you’ll have a few degrees of bend in the knee when you pedal, as you should, with the ball of your foot on the pedal axle. You should sit on the widest part of your saddle and be able to reach the bars without feeling stretched.</div>
                                   </div>
                                 </div>
                               </div>
@@ -245,32 +271,62 @@
             </div>
         </section>
 
-        <section id="latest-review">
+        <section id="great" class="mt-5 mb-5">
             <div class="container">
-                <h5 class="text-center">TAKING RIDES TO A NEWER LEVEL</h>
-                <h1 class="text-center">CHOOSE A MOTORCYCLE</h1>
+                <h2 class="text-center pt-5"> GREAT <span class="text-warning">PERFORMANCE</span></h2>
+                <p class="text-center mb-3 w-50 mx-auto">we still reckon it makes fascinating reading, gives a reasonably true indication of the current ‘hierarchy of speed’ and throws   </p>
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-center">
                         <div class="text">
-                            <h4>TAKING RIDES TO A NEWER LEVEL</h4>
-                            <h1>A STEP ABOVE WITHRIDER-FRIENDLY NATURE</h1>
-                            <p>Dolore magna aliqua quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cilum dol sed ipsum nulla pariatur nostrul done elit magna.</p>
+                            <h4 class="text-danger">TAKING RIDES TO A NEWER LEVEL</h4>
+                            <h1 class="mt-2 mb-3">A STEP ABOVE WITHRIDER-FRIENDLY NATURE</h1>
+                            <p class="mb-3">Welcome to Performance Bicycle - Shop a huge selection of Road, Mountain and Cyclocross Bikes Shop road, mountain and cyclocross bikes. Huge savings on parts, components and accessories! Free shipping on qualifying orders.</p>
                             <button class="btn btn-danger text-light" type="submit">Continue Reading</button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-3">
                         <img src="images/layer_img_3.png" class="w-100" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="motorcycle-buy">
+        <section id="motorcycle-buy" class="mt-5 mb-5">
             <div class="container">
-                <h5 class="text-center">TAKING RIDES TO A NEWER LEVEL</h5>
-                <h1 class="text-center">CHOOSE A MOTORCYCLE</h1>
+                <h5 class="text-center text-warning pt-5"> BUY A NEW BIKE WITH AUTMN OFFER</h5>
+                <h1 class="text-center mb-5">CHOOSE A MOTORCYCLE</h1>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-2">
+                        <div class="motorcycle">
+                            <div class="text p-3 d-flex justify-content-between">
+                                <div class="name">
+                                    <h4 class="fw-bold">BMW S1000 RX</h4>
+                                    <h6 class="fw-light fs-6">POWERED BY BMW</h6>
+                                </div>
+                                <div class="price d-flex align-items-center">
+                                    <h3 class="text-danger">$4,500</h3>
+                                </div>
+                            </div> 
+                            <div class="image">
+                                <img src="images/product-2.jpeg" class="w-100" alt="">
+                            </div>
+                            <div class="info mt-3 pb-3 d-flex justify-content-evenly">
+                                <div class="year ps-4 pe-4 border-end">
+                                    <P class="fw-bold">YEAR</P>
+                                    <p>2021</p>
+                                </div>
+                                <div class="type ps-4 pe-4 border-end">
+                                    <P class="fw-bold">TYPE</P>
+                                    <p>Sports</p>
+                                </div>
+                                <div class="make ps-4 pe-4">
+                                    <P class="fw-bold">MAKE</P>
+                                    <p>BMW</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-2">
                         <div class="motorcycle">
                             <div class="text p-3 d-flex justify-content-between">
                                 <div class="name">
@@ -300,15 +356,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-2">
                         <div class="motorcycle">
                             <div class="text p-3 d-flex justify-content-between">
                                 <div class="name">
-                                    <h4 class="fw-bold">YAMAHA MT09</h4>
-                                    <h6 class="fw-light">POWERED BY YAMAHA</h6>
+                                    <h4 class="fw-bold">KTM RC 390 BASE</h4>
+                                    <h6 class="fw-light">POWERED BY KTM</h6>
                                 </div>
                                 <div class="price d-flex align-items-center">
-                                    <h3 class="text-danger">$4,500</h3>
+                                    <h3 class="text-danger">$6,200</h3>
                                 </div>
                             </div> 
                             <div class="image">
@@ -321,41 +377,11 @@
                                 </div>
                                 <div class="type ps-4 pe-4 border-end">
                                     <P class="fw-bold">TYPE</P>
-                                    <p>Sports</p>
+                                    <p>Adventure</p>
                                 </div>
                                 <div class="make ps-4 pe-4">
                                     <P class="fw-bold">MAKE</P>
-                                    <p>Yamaha</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="motorcycle">
-                            <div class="text p-3 d-flex justify-content-between">
-                                <div class="name">
-                                    <h4 class="fw-bold">YAMAHA MT09</h4>
-                                    <h6 class="fw-light">POWERED BY YAMAHA</h6>
-                                </div>
-                                <div class="price d-flex align-items-center">
-                                    <h3 class="text-danger">$4,500</h3>
-                                </div>
-                            </div> 
-                            <div class="image">
-                                <img src="images/product-2.jpeg" class="w-100" alt="">
-                            </div>
-                            <div class="info mt-3 pb-3 d-flex justify-content-evenly">
-                                <div class="year ps-4 pe-4 border-end">
-                                    <P class="fw-bold">YEAR</P>
-                                    <p>2021</p>
-                                </div>
-                                <div class="type ps-4 pe-4 border-end">
-                                    <P class="fw-bold">TYPE</P>
-                                    <p>Sports</p>
-                                </div>
-                                <div class="make ps-4 pe-4">
-                                    <P class="fw-bold">MAKE</P>
-                                    <p>Yamaha</p>
+                                    <p>KTM</p>
                                 </div>
                             </div>
                         </div>
@@ -363,8 +389,35 @@
                 </div>
             </div>
         </section>
-
     </main>
+    <footer class="bg-dark pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="download">
+                        <div class="download-p d-inline-block pe-2 text-light">Download</div>
+                        <div class="download-p d-inline-block px-2 text-light ">Licence</div>
+                    </div>
+                    <div class="download mt-3 mb-5">
+                        <div class="download-p d-inline-block pe-2 text-light">About</div>
+                        <div class="download-p d-inline-block px-2 text-light ">Features</div>
+                        <div class="download-p d-inline-block px-2 text-light ">Pricing</div>
+                        <div class="download-p d-inline-block px-2 text-light ">Careers</div>
+                        <div class="download-p d-inline-block px-2 text-light ">Help</div>
+                        <div class="download-p d-inline-block px-2 text-light ">Privacy Policy</div>
+                    </div>
+                    <div class="download">
+                        <div class="download-p d-inline-block pe-2 text-light">© 2020 bike. All rights reserved</div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h3 class="text-light">Get The App</h3>
+                    <button class="btn d-block bg-dark text-light fs-5 border border-light rounded" type="button"><i class="fab fa-apple pe-2 fs-4"></i>App Store</button>
+                    <button class="btn mt-3 bg-dark text-light fs-5 border border-light rounded" type="button"><i class="fab fa-google-play pe-2 fs-4"></i>Google Play</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

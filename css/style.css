@@ -5,9 +5,15 @@
 a{
     text-decoration: none;
 } */
-#happy-clients .clients{
-    box-shadow: 1px 1px 10px red;
+nav{
+    background: #264653;
 }
+#honda-cbr{
+    background: #264653;
+}
+/* #happy-clients .clients{
+    box-shadow: 1px 1px 10px red;
+} */
 #motorcycle-buy .motorcycle{
     background: #f8f8f8;
 }
