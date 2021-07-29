@@ -1,22 +1,13 @@
-/* *{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-} */
+/* color css start */
 nav{
     background: #264653;
 }
 #honda-cbr{
     background: #264653;
 }
-/* #happy-clients .clients{
-    box-shadow: 1px 1px 10px red;
-} */
-#motorcycle-buy .motorcycle{
-    background: #f8f8f8;
+#featured-bike .gray{
+    filter: grayscale(100%);
 }
-#motorcycle-buy .info{
+#motorcycle-buy .motorcycle{
     background: #f8f8f8;
 }
